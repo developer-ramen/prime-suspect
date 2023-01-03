@@ -10,3 +10,6 @@ categories = ["algorithms", "command-line-utilities", "mathematics"]
 version = "0.1.0"
 edition = "2021"
 exclude = ["/.github", ".deepsource.toml"]
+
+[dependencies]
+clap = { version = "4.0.32", features = ["unstable-doc"] }
